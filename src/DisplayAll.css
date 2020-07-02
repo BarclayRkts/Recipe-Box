@@ -1,0 +1,36 @@
+.container{
+    background-color: rgb(143, 2, 2);
+    height: 100vh;
+}
+.title{
+    padding: 10px;
+    font-size: 40px;
+}
+button{
+    display:inline-block;
+    padding:0.4em 2em;
+    border:0.16em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    box-sizing: border-box;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-family:'Roboto',sans-serif;
+    font-weight:400;
+    color:black;
+    text-align:center;
+    transition: all 0.15s;
+}
+button:hover{
+    color:rgb(143, 2, 2);
+    border-color:rgb(143, 2, 2);
+}
+button:active{
+    color:rgb(143, 2, 2);
+    border-color:#BBBBBB;
+}
+    @media all and (max-width:30em){
+    button{
+    display:block;
+    margin:0.4em auto;
+    }
+}
