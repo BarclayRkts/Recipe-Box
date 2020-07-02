@@ -37,11 +37,6 @@ class DisplayAll extends Component {
         });
     }
     update(id, updatedRecipe){
-        console.log(updatedRecipe)
-        console.log(updatedRecipe.ingredients)
-        console.log(updatedRecipe.image)
-        console.log(updatedRecipe.name)
-        console.log(updatedRecipe.instructions)
         const updatedRecipes = this.state.recipes.map(recipe => {
             if(recipe.id === id){
                 // return { ...recipe, ingredients: updatedRecipe };
